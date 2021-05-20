@@ -1,0 +1,35 @@
+@import url(sanitize.css);
+
+.control{
+    margin-bottom: 3em;
+}
+
+.content{
+    background-color: #fff;
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+    padding: 20px;
+}
+
+label{
+    margin-bottom: .5em;
+}
+
+input{
+    font-size: 1.2em;
+    /*width: 100%;   これがあると、「メールアドレス」の下にフォームができる。
+    同じ行に出したいときは、これをなくす。*/
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+button{
+    width: 100%;
+    background-color: #2096F3;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+}
